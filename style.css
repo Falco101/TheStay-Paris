@@ -35,3 +35,19 @@
     left: 0;
     z-index: 1;
 }
+
+#blade1,
+#blade2,
+#blade3 {
+    position: absolute;
+    bottom: 0;
+    left: -30vw;
+    width: 30vw;
+    height: 75vh;
+    background: rgba(255, 255, 255, .8);
+    transition: all .3s ease-in-out;
+}
+
+.show-blade {
+    transform: translate(30vw, 0);
+}
