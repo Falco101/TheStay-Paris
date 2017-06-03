@@ -92,6 +92,8 @@ function ShowBlade(blade) {
     }, timeout);
 }
 
+$('.close').click(CloseBlade);
+
 function CloseBlade() {
     if (openBlade !== null) {
         $(openBlade).removeClass('show-blade');
