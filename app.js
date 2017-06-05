@@ -1,5 +1,5 @@
-$document.ready(function() {
-    function initMap() {
+$(document).ready(function() {
+    window.initMap = function() {
         var paris = {
             lat: 48.8566,
             lng: 2.3522
